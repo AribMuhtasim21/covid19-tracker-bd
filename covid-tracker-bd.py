@@ -37,5 +37,9 @@ msg = f"☆☆  {month_} {date_} ☆☆ [Bangladesh] \n [Infected] \n    Last 24
 
 msg.replace('(', '').replace(')', '').replace("'", "").replace(",", "").strip()
 
+# The below code is to save it to a file, you can un-comment it to use it 
+'''
 with open(f_name, "a", encoding="utf-8") as f:
     f.write(msg)
+'''
+
