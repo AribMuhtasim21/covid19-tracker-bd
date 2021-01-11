@@ -42,4 +42,3 @@ msg.replace('(', '').replace(')', '').replace("'", "").replace(",", "").strip()
 with open(f_name, "a", encoding="utf-8") as f:
     f.write(msg)
 '''
-
